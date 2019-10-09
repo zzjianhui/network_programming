@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/media/zjh/文档/linux/code/myCode/networkProgram/network_programming/mid_homework/tcp_server.c
+stdio.h
+-
+sys/socket.h
+-
+sys/select.h
+-
+netinet/in.h
+-
+string.h
+-
+error.h
+-
+errno.h
+-
+signal.h
+-
+unistd.h
+-
+malloc.h
+-
+stdlib.h
+-
+

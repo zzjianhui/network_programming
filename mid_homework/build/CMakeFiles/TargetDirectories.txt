@@ -1,0 +1,4 @@
+/media/zjh/文档/linux/code/myCode/networkProgram/network_programming/mid_homework/build/CMakeFiles/edit_cache.dir
+/media/zjh/文档/linux/code/myCode/networkProgram/network_programming/mid_homework/build/CMakeFiles/client.dir
+/media/zjh/文档/linux/code/myCode/networkProgram/network_programming/mid_homework/build/CMakeFiles/rebuild_cache.dir
+/media/zjh/文档/linux/code/myCode/networkProgram/network_programming/mid_homework/build/CMakeFiles/server.dir
