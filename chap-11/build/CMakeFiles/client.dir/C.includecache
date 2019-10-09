@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zjh/code/myCode/network_programming/chap-11/tcp_client.c
+stdio.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+error.h
+-
+errno.h
+-
+string.h
+-
+sys/select.h
+-
+stdlib.h
+-
+unistd.h
+-
+
