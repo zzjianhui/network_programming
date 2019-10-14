@@ -14,7 +14,7 @@ class ThreadPool{
 public:
     ThreadPool(std::function<void(int fd)> F){
         for(int i=0;i<thread_count;++i){
-            pools.push_back(std::thread(std::bind(&ThreadPool::thread_run,this,std::ref(F))));
+            pools.push_back(std::thread(&ThreadPool::thread_run,this,std::ref(F)));
         }
     }
 
