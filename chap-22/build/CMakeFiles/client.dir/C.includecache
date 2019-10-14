@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zjh/code/myCode/network_programming/chap-22/no-blocking_client.c
+stdio.h
+-
+sys/socket.h
+-
+error.h
+-
+errno.h
+-
+netinet/in.h
+-
+string.h
+-
+

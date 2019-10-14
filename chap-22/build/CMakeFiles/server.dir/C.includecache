@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/zjh/code/myCode/network_programming/chap-22/no-blocking_select_server.c
+stdio.h
+-
+stdlib.h
+-
+sys/socket.h
+-
+fcntl.h
+-
+netinet/in.h
+-
+string.h
+-
+error.h
+-
+errno.h
+-
+signal.h
+-
+sys/select.h
+-
+unistd.h
+-
+
